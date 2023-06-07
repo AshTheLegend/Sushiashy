@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/sushi.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Behind The Taste</title>
+</head>
+<body style="height: 3000px;">
+    
+    <header>
+
+        <script>
+            function myFunction() {
+                        var x = document.getElementById("myLinks");
+                        if (x.style.display === "flex") {
+                          x.style.display = "none";
+                        } else {
+                          x.style.display = "flex";
+                          x.style.flexDirection = "row";
+                          x.style.gap = "10px"
+                          x.style.justifyContent= "space-around"
+                          x.style.flexWrap='wrap'
+                          x.style.lineHeight='10px'
+                        }
+            }
+        </script>
+  
+  
+        <nav class="header__nav">
+          <div class="header__logo">
+            <h4 >Sushiman</h4>
+            <div class="header__logo-overlay"></div>
+          </div>
+  
+          <ul class="header__menu" >
+            <li>
+              <a href="index4.html">Home</a>
+            </li>
+            <li>
+              <a href="#videos">Videos</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#chefs">Chefs</a>
+            </li>
+            <li>
+              <img src="assets/search.svg" alt="search" />
+            </li>
+          </ul>
+  
+          <ul class="header__menu-mobile" >
+            <div id="myLinks"> 
+              <li>
+                <a href="index4.html">Home</a>
+              </li>
+              <li>
+                <a href="#videos">Videos</a>
+              </li>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#chefs">Chefs</a>
+              </li>
+            </div>
+  
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"> 
+              <i class="fa fa-bars"></i>
+            </a>
+          </ul>
+        </nav>
+      </header>
+  
+      <section class="hero">
+        <div class="hero-image">
+          <img 
+            src="assets/sushi-1.png"
+            alt="sushi"
+            
+          />
+          <h2 >
+            日 <br />
+            本 <br />
+            食
+          </h2>
+  
+          <div class="hero-image__overlay"></div>
+        </div>
+  
+        <div class="hero-content">
+          <div class="hero-content-info" >
+            <h1>A Glimpse Of What lies behind the Scenes</h1>
+            <p>Feel the taste of the most popular Japanese food from anywhere and anytime.</p>
+  
+            <div class="hero-content__buttons">
+              <button class="hero-content__order-button" onclick="window.location.href='index2.html' ">Order Now</button>
+              <button class="hero-content__play-button">
+                <img src="assets/play-circle.svg" alt="play" />
+                How to Order
+              </button>
+            </div>
+          </div>
+  
+          <div class="hero-content__testimonial" >
+            <div class="hero-content__customer flex-center">
+              <h4>24<span>k+</span></h4>
+              <p>Happy Customers</p>
+            </div>
+  
+            <div class="hero-content__review">
+              <img src="assets/user.png" alt="user" />
+              <p>"This is the best Japanese food delivery service that ever existed."</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <img src="assets/bg.jpg" alt="background" style="width: 100%; object-fit: contain; margin-top: 30px;">
+        
+      
+      <main>
+        <section class="video-grid" id="videos">
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720 (5).webp" onclick="window.location.href='https://www.youtube.com/watch?v=3wAQxJeyyXo'"/>
+              <div class="video-time">19:59</div>
+            </div>
+  
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channels1_profile.jpg" 
+                />
+              </div>
+  
+              <div class="video-info">
+                <p class="video-title">
+                  A Day In The Life Of A Sushi Master • Tasty
+                </p>
+                <p class="video-author">Tasty</p>
+                <p class="video-stats">21M views · 4 years ago</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720 (1).webp"
+              onclick="window.location.href='https://www.youtube.com/watch?v=0H9AXgEWPOw'" />
+              <div class="video-time">8:22</div>
+            </div>
+  
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/unnamed.jpg"
+                />
+              </div>
+  
+              <div class="video-info">
+                <p class="video-title">How Master Sushi Chef Keiji Nakazawa Built the Ultimate Sushi Team — Omakase
+                </p>
+                <p class="video-author">Eater</p>
+                <p class="video-stats">4.9M views &#183; 3 years ago</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720 (3).webp" 
+              onclick="window.location.href='https://www.youtube.com/watch?v=BoG4dpmiIDw'"/>
+              <div class="video-time">2:46</div>
+            </div>
+  
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/unnamed2.jpg"
+                />
+              </div>
+  
+              <div class="video-info">
+                <p class="video-title">
+                  Behind The Scenes - Michelin Sushi Chef YouTube filming!
+                </p>
+                <p class="video-author">Samurai Sushi Spirits</p>
+                <p class="video-stats">157 views · 10 months ago</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720 (4).webp"
+              onclick="window.location.href='https://www.youtube.com/watch?v=eiNuXaxqf6U'"/>
+              <div class="video-time">15:52</div>
+            </div>
+  
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/unnamed3.jpg"
+                />
+              </div>
+  
+              <div class="video-info">
+                <p class="video-title">
+                  Behind the Counter at a local Japanese Okonomiyaki Restaurant
+                </p>
+                <p class="video-author">Paolo fromTokyo</p>
+                <p class="video-stats">1.9M views · 10 months ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720 (6).webp" 
+              onclick="window.location.href='https://www.youtube.com/watch?v=hE6QP9et__w'" />
+              <div class="video-time">10:54</div>
+            </div>
+  
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/unnamed5.jpg"
+                />
+              </div>
+  
+              <div class="video-info">
+                <p class="video-title">Sushi Chef in Tokyo - Dedication, Passion, Perfection
+                </p>
+                <p class="video-author">Aden Films</p>
+                <p class="video-stats">2.9M views · 5 years ago</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720 (7).webp"
+              onclick="window.location.href='https://www.youtube.com/watch?v=auLmekEsaak'"/>
+              <div class="video-time">6:25</div>
+            </div>
+  
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/unnamed6.jpg"
+                />
+              </div>
+  
+              <div class="video-info">
+                <p class="video-title">
+                  How to Eat Sushi: You've Been Doing it Wrong
+                </p>
+                <p class="video-author">Munchies</p>
+                <p class="video-stats">20M views · 8 years ago</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720 (8).webp" onclick="https://www.youtube.com/watch?v=IO2L0GYk2QY" />
+              <div class="video-time">2:08</div>
+            </div>
+  
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/unnamed7.jpg"
+                />
+              </div>
+  
+              <div class="video-info">
+                <p class="video-title">Sushi Bar Photoshoot - Behind The Scenes
+                </p>
+                <p class="video-author">jsegalphoto</p>
+                <p class="video-stats">282 views · 2 years ago</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720.webp" onclick="
+                window.location.href='https://www.youtube.com/watch?v=2EHdOCWjQ00'"/>
+              <div class="video-time">2:41</div>
+            </div>
+  
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/unnamed8.jpg"
+                />
+              </div>
+  
+              <div class="video-info">
+                <p class="video-title">
+                  Learning to make Sushi - Gordon Ramsay
+                </p>
+                <p class="video-author">Gordon Ramsey</p>
+                <p class="video-stats">9.3M views · 13 year ago</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720 (2).webp" 
+              onclick="window.location.href='https://www.youtube.com/watch?v=qoKJoUb4o9g'" />
+              <div class="video-time">15:31</div>
+            </div>
+  
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channels2_profile.jpg"
+                />
+              </div>
+  
+              <div class="video-info">
+                <p class="video-title">
+                  24 Hours With A Japanese Izakaya Chef: Torasho Ramen & Charcoal Bar
+                </p>
+                <p class="video-author">SETHLUI.com</p>
+                <p class="video-stats">1.1M views · 1 year ago</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720 (9).webp" 
+              onclick="window.location.href='https://www.youtube.com/watch?v=kEtcBpaM_l8'"/>
+              <div class="video-time">12:20</div>
+            </div>
+  
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channels2_profile.jpg"
+                />
+              </div>
+  
+              <div class="video-info">
+                <p class="video-title">
+                  24 Hours With A Michelin Star Sushi Chef: Sushi Kimura
+                </p>
+                <p class="video-author">SETHUI.com</p>
+                <p class="video-stats">8.1M views · 3 years ago</p>
+              </div>
+            </div>
+          </div>
+  
+        </section>
+      </main>
+
+      <br>
+      <br>
+      <br>
+      <hr class="style-seven" style="width: 100%;"> 
+          <h3 class=" section__subtitle " style="text-align: center;" > The Artist Club</h3>
+         <h1 class="section__title" > Meet Our Chefs!</h1>
+
+         <br>
+         <br>
+         <hr class="style-seven" style="width: 100%;"> 
+     
+      <section class="chefs" id="chefs">
+        
+              <div class="profile"> 
+            <img class="profile-photo" src="channel-pictures/uh.jpg">
+            <p class="name"> Kang Tae-Oh </p>
+            <p class="mutual"> Korean Sushi Master </p>
+            <p class="bio"> Cooking with love? Screw that my talent is beyond.</p>
+
+
+            <ul class="social">
+              <li class="flex-center">
+                <img src="assets/facebook.svg" alt="facebook" />
+              </li>
+              <li class="flex-center">
+                <img src="assets/instagram.svg" alt="instagram" />
+              </li>
+              <li class="flex-center">
+                <img src="assets/twitter.svg" alt="twitter" />
+              </li>
+            </ul>
+            
+          </footer>
+                 </div>
+
+              <div class="profile"> 
+                <img class="profile-photo" src="channel-pictures/JIMINI.jpg">
+                <p class="name"> Park Jimin</p>
+                <p class="mutual"> Korean Sweets Artist </p>
+                <p class="bio"> If you're not living for my sweets, then what are you living for?!</p>
+        
+        
+                <ul class="social">
+                  <li class="flex-center">
+                    <img src="assets/facebook.svg" alt="facebook" />
+                  </li>
+                  <li class="flex-center">
+                    <img src="assets/instagram.svg" alt="instagram" onclick="window.location.href='https://www.instagram.com/j.m/'" />
+                  </li>
+                  <li class="flex-center">
+                    <img src="assets/twitter.svg" alt="twitter" />
+                  </li>
+                </ul>
+                
+              </footer>
+                </div>
+
+              <div class="profile"> 
+              <img class="profile-photo" src="channel-pictures/hehe..jpg">
+              <p class="name">Heong Min Kae</p>
+              <p class="mutual"> Korean &#183;	 Kimbap Master </p>
+              <p class="bio"> I am the favorite Kimbap you're looking for buddy </p>
+      
+      
+              <ul class="social">
+                <li class="flex-center">
+                  <img src="assets/facebook.svg" alt="facebook" />
+                </li>
+                <li class="flex-center">
+                  <img src="assets/instagram.svg" alt="instagram" />
+                </li>
+                <li class="flex-center">
+                  <img src="assets/twitter.svg" alt="twitter" />
+                </li>
+              </ul>
+              
+            </footer>
+                 </div>
+
+              <div class="profile"> 
+                  <img class="profile-photo" src="channel-pictures/ehem2.jpg">
+                  <p class="name"> JungKook</p>
+                  <p class="mutual"> Korean Rameon Specialisto </p>
+                  <p class="bio"> Landing on your tongue with sugar and Love.</p>
+          
+          
+                  <ul class="social">
+                    <li class="flex-center">
+                      <img src="assets/facebook.svg" alt="facebook" />
+                    </li>
+                    <li class="flex-center">
+                      <img src="assets/instagram.svg" alt="instagram" />
+                    </li>
+                    <li class="flex-center">
+                      <img src="assets/twitter.svg" alt="twitter" />
+                    </li>
+                  </ul>
+                  
+                </footer>
+                  </div>
+
+               <div class="profile"> 
+                    <img class="profile-photo" src="channel-pictures/IUchef.png">
+                    <p class="name"> Lee Ji-eun
+                    </p>
+                    <p class="mutual"> Korean Lovey Expert </p>
+                    <p class="bio"> I really hope I don't end up being the meal.</p>
+        
+        
+                    <ul class="social">
+                      <li class="flex-center">
+                        <img src="assets/facebook.svg" alt="facebook" />
+                      </li>
+                      <li class="flex-center">
+                        <img src="assets/instagram.svg" alt="instagram" />
+                      </li>
+                      <li class="flex-center">
+                        <img src="assets/twitter.svg" alt="twitter" />
+                      </li>
+                    </ul>
+                    
+                  </footer>
+                         </div>
+
+              <div class="profile"> 
+                          <img class="profile-photo" src="channel-pictures/Yang-sejong.jpg">
+                          <p class="name"> Ash The Legend</p>
+                          <p class="mutual"> Lebanese Sushi Master </p>
+                          <p class="bio"> Cooking is but a funeral of constant fire and spark.</p>
+              
+              
+                          <ul class="social">
+                            <li class="flex-center">
+                              <img src="assets/facebook.svg" alt="facebook" />
+                            </li>
+                            <li class="flex-center">
+                              <img src="assets/instagram.svg" alt="instagram" />
+                            </li>
+                            <li class="flex-center">
+                              <img src="assets/twitter.svg" alt="twitter" />
+                            </li>
+                          </ul>
+                          
+                        </footer>
+               </div>
+
+               <div class="profile"> 
+                <img class="profile-photo" src="channel-pictures/tae2.jpg">
+                <p class="name"> Tae Hyung V</p>
+                <p class="mutual"> Korean Noodle bias </p>
+                <p class="bio"> Some lightLooking dishes can land the deepest taste.</p>
+    
+    
+                <ul class="social">
+                  <li class="flex-center">
+                    <img src="assets/facebook.svg" alt="facebook" />
+                  </li>
+                  <li class="flex-center">
+                    <img src="assets/instagram.svg" alt="instagram" />
+                  </li>
+                  <li class="flex-center">
+                    <img src="assets/twitter.svg" alt="twitter" />
+                  </li>
+                </ul>
+                
+              </footer>
+           </div>
+          
+           <div class="profile"> 
+            <img class="profile-photo" src="channel-pictures/so hee.jpg">
+            <p class="name"> Han So Hee</p>
+            <p class="mutual"> Korean Ramyeon Expert </p>
+            <p class="bio"> Ramyeoning your life with the tip of my nail~</p>
+
+
+            <ul class="social">
+              <li class="flex-center">
+                <img src="assets/facebook.svg" alt="facebook" />
+              </li>
+              <li class="flex-center">
+                <img src="assets/instagram.svg" alt="instagram" />
+              </li>
+              <li class="flex-center">
+                <img src="assets/twitter.svg" alt="twitter" />
+              </li>
+            </ul>
+            
+          </footer>
+                 </div>
+           </section>
+
+           <section class="subscription flex-center" id="services" >
+            <h2>
+              Get offers straight <br />
+              into your inbox
+            </h2>
+            <p>Sign up for the Sushiman newsletter</p>
+        
+            <div class="subscription__form" >
+              <input type="text" placeholder="Enter your email address"/>
+              <button>Get Started</button>
+            </div>
+          </section>
+        
+          <footer class="footer flex-between">
+            <h3 class="footer__logo">
+              <span>Sushi</span>man
+            </h3>
+        
+            <ul class="footer__nav">
+              <li>
+                <a href="index4.html">Home</a>
+              </li>
+              <li>
+                <a href="#videos">Videos</a>
+              </li>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#chefs">Chefs</a>
+              </li>
+            </ul>
+        
+            <ul class="footer__social">
+              <li class="flex-center">
+                <img src="assets/facebook.svg" alt="facebook" />
+              </li>
+              <li class="flex-center">
+                <img src="assets/instagram.svg" alt="instagram" />
+              </li>
+              <li class="flex-center">
+                <img src="assets/twitter.svg" alt="twitter" />
+              </li>
+            </ul>
+          </footer>
+      <script src="js/script.js" type="module"></script>
+
+
+
+    
+      
+
+</body>
+</html>

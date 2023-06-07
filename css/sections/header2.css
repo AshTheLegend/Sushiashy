@@ -1,0 +1,117 @@
+.header__nav2 {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .header__logo2 {
+    flex: 1;
+    display: flex;
+
+    position: relative;
+    padding: 20px;
+  }
+  
+  .header__logo-overlay2 {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+  
+    background-color: var(--primary-color);
+    z-index: -1;
+  }
+  
+  .header__logo2 h4 {
+    padding-left: 30px;
+  
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: var(--playfair-display);
+    color: #fff;
+    opacity: 0.8;
+  }
+  
+  .header__menu2, .header__menu-mobile2 {
+    padding: 20px;
+    flex: 1.236;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 64px;
+  
+    list-style: none;
+  }
+  
+  .header__menu2 li {
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    color: var(--secondary-color);
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 20px;
+    cursor: pointer;
+  }
+  
+  .header__menu2 li img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+  
+  .header__menu-mobile2 {
+    display: none;
+    gap: 20px;
+  
+    position: relative;
+  }
+
+     #myLinks2 {
+      display: none;
+      font-family: var(--plus-jakarta-sans);
+      position: absolute;
+      right:49px;
+     ;
+      font-size: 14px;
+      margin-right: 5px;
+ 
+     
+     
+      background-color: #fff0de;
+      color: var(--secondary-color);
+      padding: 21px 40px 21px 40px;
+      font-weight: 500;
+    }
+
+    
+
+    .header__menu-mobile2 a.icon {
+      display: block;
+      position: absolute;
+      right: 4;
+      top: 6;
+      color: white;
+      
+    }
+
+    /* START: header media querie */
+@media screen and (max-width: 900px) {
+    .header__nav2 {
+      background: var(--primary-color);
+    }
+  
+    .header__menu2 {
+      display: none;
+    }
+  
+    .header__menu-mobile2 {
+      display: flex;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .header__logo2 {
+      padding-left: 0;
+    }
+  }
+  /* END: header media queries */
+  

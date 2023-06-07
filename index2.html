@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/sushi.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="js/app.js" async></script>
+    <title>Menu</title>
+  </head>
+  <body style="height: 3000px">
+    <header>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks2");
+          if (x.style.display === "flex") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "flex";
+            x.style.flexDirection = "row";
+            x.style.gap = "10px";
+            x.style.justifyContent = "space-around";
+            x.style.flexWrap = "wrap";
+            x.style.lineHeight = "10px";
+          }
+        }
+      </script>
+
+      <nav class="header__nav2">
+        <ul class="header__menu2">
+          <li>
+            <a href="index4.html">Home</a>
+          </li>
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="index3.html">BTS</a>
+          </li>
+          <li>
+            <img src="assets/search.svg" alt="search" />
+          </li>
+        </ul>
+
+        <ul class="header__menu-mobile2" >
+          <div id="myLinks2">
+            <li>
+              <a href="index4.html">Home</a>
+            </li>
+            <li>
+              <a href="#menu">Menu</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="index3.html">BTS</a>
+            </li>
+          </div>
+
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </ul>
+        <div class="header__logo2">
+          <h4>Sushiman</h4>
+          <div class="header__logo-overlay2"></div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero2">
+      <div class="hero-content2">
+        <div class="hero-content-info2" >
+          <h1>The Menu Awaits you Below</h1>
+          <p>
+            Feel the taste of the most popular Japanese food from anywhere and
+            anytime.
+          </p>
+
+          <div class="hero-content__buttons2">
+            <button class="hero-content__order-button2"> <a href="#carttt">  Order Now </a>  </button>
+            <button class="hero-content__play-button2">
+              <img src="assets/play-circle.svg" alt="play" />
+              How to Order
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-content__testimonial2" >
+          <div class="hero-content__customer2 flex-center">
+            <h4>24<span>k+</span></h4>
+            <p>Happy Customers</p>
+          </div>
+
+          <div class="hero-content__review2">
+            <img src="assets/user.png" alt="user" />
+            <p>
+              "This is the best Japanese food delivery service that ever
+              existed."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image2">
+        <img src="assets/sushi-14.png" alt="sushi"  />
+        <h2>
+          日 <br />
+          本 <br />
+          食
+        </h2>
+
+        <div class="hero-image__overlay2"></div>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <span class="section__subtitle"> The Best Food</span>
+      <h2 class="section__title">Our Menu</h2>
+
+      <div class="menu__container">
+        <h3 class="category">特別 | Today's Special</h3>
+        <article class="menu__card">
+          <img
+            src="assets/popular-onigiri.png"
+            alt="onigiri"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Ongiri</h3>
+          <span class="food__description">Japanese Dish</span>
+          <span class="food__price"> $10.99</span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/popular-spring-rols.png"
+            alt="spring rolls"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Spring Rolls</h3>
+          <span class="food__description">Japanese Dish</span>
+          <span class="food__price"> $15.99</span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/popular-sushi-rolls.png"
+            alt="sushi rolls"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Sushi Rolls</h3>
+          <span class="food__description">Japanese Dish</span>
+          <span class="food__price">19.99$ </span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/poly roll.PNG"
+            alt="Poly rolls"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Poly Rolls</h3>
+          <span class="food__description">Chinese Dish</span>
+          <span class="food__price">9.99$ </span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/Poly Tobiko.PNG"
+            alt="Poly Tobiko"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Poly Tobiko</h3>
+          <span class="food__description">Chinese Dish</span>
+          <span class="food__price">14.99$ </span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+      </div>
+      <br />
+      <br />
+      <hr class="style-seven" style="width: 100%" />
+
+      <div class="menu__container">
+        <h3 class="category">スープ | Bowl Soups</h3>
+        <article class="menu__card">
+          <img
+            src="assets/Classic Bowl1.png"
+            alt="onigiri"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Classic Soup</h3>
+          <span class="food__description">Japanese Dish</span>
+          <span class="food__price"> $21.99</span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/ChickenRamen.png"
+            alt="spring rolls"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Chicken Ramen</h3>
+          <span class="food__description">Japanese Dish</span>
+          <span class="food__price"> $30.50</span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/Wheat Soup.png"
+            alt="sushi rolls"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Wheated Soup</h3>
+          <span class="food__description">Japanese Dish</span>
+          <span class="food__price">9.99$ </span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/Breaded Dark Soup.png"
+            alt="Poly rolls"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Breaded Dark Soup</h3>
+          <span class="food__description">Taiwanese Dish</span>
+          <span class="food__price">13.99$ </span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/Leafy Bowl.png"
+            alt="Poly Tobiko"
+            class="food__image"
+          />
+
+          <h3 class="food__name">leafy Bowl</h3>
+          <span class="food__description">Malaysian Dish</span>
+          <span class="food__price">7.99$ </span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/Dark-Soup.png"
+            alt="spring rolls"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Dark Soup</h3>
+          <span class="food__description">Taiwanese Soup</span>
+          <span class="food__price"> $10.50</span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/chickenNoodle.PNG"
+            alt="sushi rolls"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Chicken Soup</h3>
+          <span class="food__description">Japanese Soup</span>
+          <span class="food__price">9.99$ </span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/Mushroomed-EggSoup.png"
+            alt="Poly rolls"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Mushroom Soup</h3>
+          <span class="food__description">Taiwanese Dish</span>
+          <span class="food__price">13.99$ </span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/Mluqeyye.PNG"
+            alt="Poly Tobiko"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Mluqeyye</h3>
+          <span class="food__description">Malaysian Dish</span>
+          <span class="food__price">7.99$ </span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/Legendary Ramen.png"
+            alt="Poly Tobiko"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Legendary Ramen</h3>
+          <span class="food__description">Japanese Dish</span>
+          <span class="food__price">40.00$ </span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+      </div>
+
+      <br />
+      <br />
+      <hr class="style-seven" style="width: 100%" />
+
+      <div class="menu__container">
+        <h3 class="category">巻き寿司 | Rolls</h3>
+        <article class="menu__card">
+          <img
+            src="assets/Exclusive Greeny Roll.png"
+            alt="onigiri"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Exclusive Greeny-Roll</h3>
+          <span class="food__description">Japanese Dish</span>
+          <span class="food__price"> $10.99</span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/popular-spring-rols.png"
+            alt="spring rolls"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Spring Rolls</h3>
+          <span class="food__description">Japanese Dish</span>
+          <span class="food__price"> $15.99</span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/popular-sushi-rolls.png"
+            alt="sushi rolls"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Sushi Rolls</h3>
+          <span class="food__description">Japanese Dish</span>
+          <span class="food__price">19.99$ </span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/poly roll.PNG"
+            alt="Poly rolls"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Poly Rolls</h3>
+          <span class="food__description">Chinese Dish</span>
+          <span class="food__price">9.99$ </span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/Greeny Roll.png"
+            alt="Poly Tobiko"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Greeny Roll</h3>
+          <span class="food__description">Chinese Dish</span>
+          <span class="food__price">14.99$ </span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/Huge Rolls.png"
+            alt="Poly Tobiko"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Huge-Sized Rolls</h3>
+          <span class="food__description">Chinese Dish</span>
+          <span class="food__price">14.99$ </span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+
+        <article class="menu__card">
+          <img
+            src="assets/Saucy Sowc.png"
+            alt="Poly Tobiko"
+            class="food__image"
+          />
+
+          <h3 class="food__name">Saucy Duo Rolls</h3>
+          <span class="food__description">Chinese Dish</span>
+          <span class="food__price">14.99$ </span>
+          <button class="food__button">
+            <h4>Add To Cart</h4>
+          </button>
+        </article>
+      </div>
+      <br />
+      <br />
+      <hr class="style-seven" style="width: 100%" />
+    </section>
+
+    <section id="carttt" class="containerx content-section">
+      <h2 class="section__title">YOUR CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column"> ITEM </span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+
+      <div class="cart-items"></div>
+
+      <div class="cart-total">
+        <strong class="cart-total-title"> Total</strong>
+        <span class="cart-total-price"> $0.00</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">
+        PURCHASE ORDER
+      </button>
+    </section>
+
+    <section class="subscription flex-center" id="services">
+      <h2>
+        Get offers straight <br />
+        into your inbox
+      </h2>
+      <p>Sign up for the Sushiman newsletter</p>
+
+      <div class="subscription__form">
+        <input type="text" placeholder="Enter your email address" />
+        <button>Get Started</button>
+      </div>
+    </section>
+
+    <footer class="footer flex-between">
+      <h3 class="footer__logo"><span>Sushi</span>man</h3>
+
+      <ul class="footer__nav">
+        <li><a href="index4.html">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="index3.html">BTS</a></li>
+      </ul>
+
+      <ul class="footer__social">
+        <li class="flex-center">
+          <img src="assets/facebook.svg" alt="facebook" />
+        </li>
+        <li class="flex-center">
+          <img src="assets/instagram.svg" alt="instagram" />
+        </li>
+        <li class="flex-center">
+          <img src="assets/twitter.svg" alt="twitter" />
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

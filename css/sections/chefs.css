@@ -1,0 +1,91 @@
+.chefs{
+    margin-top: 3px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.profile{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-bottom: 3px solid var(--primary-color) ;
+    border-radius: 3px solid var(--primary-color) ;
+    width: 250px;
+    height: auto;
+    padding-bottom: 10px;
+    border-radius: 5.5px;
+    background-color: white;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+}
+.profile-photo{
+    object-fit: cover;
+   max-width: 250px;
+   max-height: 330px;
+    width: 250px;
+    margin-bottom: 0;
+
+    border-top-left-radius: 5.5px ;
+    border-top-right-radius: 5.5px;
+}
+.name{
+    margin: 4px 0 0 10px;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: var(--playfair-display);
+    color: var(--primary-color);
+}
+.mutual{
+    margin-top: 1.5px;
+    font-size: 13px;
+    color: rgb(187, 185, 185);
+    margin-left: 8px;
+    margin-bottom: 7px;
+    font-family: var(--plus-jakarta-sans);
+}
+
+
+
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin-right: 8px;
+    
+    gap: 6px;
+}
+.social li{
+    width: 32px;
+    height: 32px;
+    background-color: var(--primary-color);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: width 0.5s, height 0.5s, background-color 0.2s;
+}
+
+.social li img{
+    width: 45%;
+    height: 45%;
+    object-fit: contain;
+    
+}
+
+.social li:hover{
+    background-color: var(--secondary-color);
+    width: 29px;
+    height: 29px;
+}
+
+.bio{
+    font-size: 13px;
+    min-height: 34px;
+    line-height: 17px;
+    font-weight: 600;
+    font-family: var(--plus-jakarta-sans);
+    flex-wrap: wrap;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    color: var(--primary-color);
+    margin-right: 5px;
+}
